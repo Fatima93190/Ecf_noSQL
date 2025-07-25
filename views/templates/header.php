@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
 
     <!-- Style personnalisé -->
-    <link rel="stylesheet" href="/Ecf_noSQL/public/style/style.css">
+    <link rel="stylesheet" href="public/style/style.css">
 
 </head>
 
