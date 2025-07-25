@@ -15,12 +15,12 @@
 </head>
 
 <body>
-    <h1 class="main-title">
-        <a class="navbar-brand" href="?">Mon_produit</a>
-    </h1>
 
 
     <nav class="navbar navbar-expand-lg p-3 shadow-sm">
+        <h1 class="main-title">
+            <a class="navbar-brand" href="?">Mon_produit</a>
+        </h1>
         <ul class="navbar-nav d-flex justify-content-center gap-3 w-100">
             <li class="nav-item">
                 <a href="?action=index" class="nav-link text-center p-3">Accueil</a>

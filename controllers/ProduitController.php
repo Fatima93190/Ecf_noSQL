@@ -31,6 +31,19 @@ class ProduitController
 
     public function store_produit()
     {
+        $quantite = (int) $_POST['quantite'];
+        $price = (float) $_POST['price'];
+
+        if ($quantite < 1) {
+            // Optionnel : afficher un message d’erreur ou rediriger avec un message
+            header('Location: ?action=create_produit&error=quantite_invalide');
+            exit;
+        }
+
+        if ($price < 0) {
+            header('Location: ?action=create_produit&error=prix_invalide');
+            exit;
+        }
         $produit = new Produit();
         $produit->setName($_POST['name']);
         $produit->setQuantite((int) $_POST['quantite']);
@@ -49,9 +62,21 @@ class ProduitController
     public function update_produit()
     {
         $id = $_POST['id'];
+        $quantite = (int) $_POST['quantite'];
+        $price = (float) $_POST['price'];
+
+        if ($quantite < 1) {
+            // Optionnel : afficher un message d’erreur ou rediriger avec un message
+            header('Location: ?action=create_produit&error=quantite_invalide');
+            exit;
+        }
+        if ($price < 0) {
+            header('Location: ?action=create_produit&error=prix_invalide');
+            exit;
+        }
 
         $produit = new Produit();
-        $produit->setId($id); 
+        $produit->setId($id);
         $produit->setName($_POST['name']);
         $produit->setQuantite((int) $_POST['quantite']);
         $produit->setPrice((float) $_POST['price']);
