@@ -35,7 +35,6 @@ class ProduitController
         $price = (float) $_POST['price'];
 
         if ($quantite < 1) {
-            // Optionnel : afficher un message d’erreur ou rediriger avec un message
             header('Location: ?action=create_produit&error=quantite_invalide');
             exit;
         }
@@ -66,7 +65,6 @@ class ProduitController
         $price = (float) $_POST['price'];
 
         if ($quantite < 1) {
-            // Optionnel : afficher un message d’erreur ou rediriger avec un message
             header('Location: ?action=create_produit&error=quantite_invalide');
             exit;
         }
