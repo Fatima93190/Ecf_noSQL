@@ -1,6 +1,6 @@
 <?php require_once __DIR__ . '/../templates/header.php'; ?>
 
-<h2 class="mb-4">Créer une nouvelle Commande</h2>
+<h2 class="mb-4">Ajouter un nouveau produit</h2>
 
 <form action="?action=store_produit" method="POST">
     <div class="mb-3">

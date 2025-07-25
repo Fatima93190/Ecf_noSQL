@@ -1,6 +1,6 @@
 <?php require_once __DIR__ . '/../templates/header.php'; ?>
 
-<h2 class="mb-4">Modifier une commande</h2>
+<h2 class="mb-4">Modifier les information d'un produit</h2>
 
 <form action="?action=update_produit" method="POST">
     <input type="hidden" name="id" value="<?= $produit->getId() ?>">

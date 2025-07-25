@@ -26,10 +26,10 @@
                 <a href="?action=index" class="nav-link text-center p-3">Accueil</a>
             </li>
             <li class="nav-item">
-                <a href="?action=list_produit" class="nav-link text-center p-3">Liste de commandes</a>
+                <a href="?action=list_produit" class="nav-link text-center p-3">Liste des Produits</a>
             </li>
             <li class="nav-item">
-                <a href="?action=create_produit" class="nav-link text-center p-3">Nouvelle Commande</a>
+                <a href="?action=create_produit" class="nav-link text-center p-3">nouveau Produit</a>
             </li>
         </ul>
     </nav>

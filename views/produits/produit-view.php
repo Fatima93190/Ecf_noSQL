@@ -1,6 +1,6 @@
 <?php require_once __DIR__ . '/../templates/header.php'; ?>
 
-<h2 class="mb-4">information de la commande</h2>
+<h2 class="mb-4">information de produit</h2>
 
 <p><strong>Nom : </strong> <?= $produit->getName() ?></p>
 <p><strong>Quantité : </strong> <?= $produit->getQuantite() ?></p>

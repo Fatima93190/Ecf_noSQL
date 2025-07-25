@@ -1,6 +1,6 @@
 <?php require_once __DIR__ . '/../templates/header.php'; ?>
 
-<h2 class="mb-4">Liste de Commandes</h2>
+<h2 class="mb-4">Liste des Produits</h2>
 <br>
 <table class="table table-striped table-bordered">
     <thead class="table-light">
